@@ -1,0 +1,58 @@
+#aboutme{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-self: center;
+    /* border: 2px solid white; */
+    background-color: #051031;
+    height: 80vh;
+    width: 80vw;
+}
+#aboutme>div:nth-child(1){
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutme>div:nth-child(1)>img{
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    box-shadow: #10b981 0px 0px;
+
+}
+#tint{
+    position: absolute;
+    z-index: 1;
+    background-color: #10b981;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+   
+    
+
+
+}
+
+/* select the image when tint is hovered */
+
+#aboutme>div:nth-child(1)>img:hover{
+    box-shadow: #10b981 10px 10px;
+    opacity: 1;
+}
+#aboutme p{
+    opacity: 0.8;
+}
+#aboutme>div:nth-child(2){
+    position: relative;
+    transform: translate(0, -10vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+    
