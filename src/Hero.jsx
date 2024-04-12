@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import headerLogo from 'C:\\Users\\Asus\\Desktop\\Web dev\\Portfolio\\src\\assets\\header_logo.svg';
+import headerLogo from './assets/header_logo.svg';
 
 
 export default function Hero() {
