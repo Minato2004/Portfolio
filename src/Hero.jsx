@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import headerLogo from './assets/header_logo.svg';
-
+import Logo from './assets/logo.webp';
 
 export default function Hero() {
     const handleClick = () => {
@@ -25,7 +25,7 @@ export default function Hero() {
               <div>
                 <h1>Aspiring software engineer & competetitive programmer</h1>
               </div>
-              <div><img src="src/assets/logo.webp" alt="" /></div>
+              <div><img src={Logo} alt="" /></div>
               <div><div>Hi , I am <strong>Pratyansh Pathak</strong> a 2nd year Computer Science B.Tech student who wants to build things that improve our society</div></div>
               
             </div>
