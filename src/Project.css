@@ -1,0 +1,22 @@
+.project{
+    border: 2px solid black;
+    height: 40vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.project img{
+    height: 30vh;
+    width: 50vh;
+    border-radius: 10px;
+}
+.project .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.project .info{
+    border: 2px solid black;
+}

@@ -15,9 +15,9 @@ export default function Hero() {
               <img src={headerLogo} alt="" />
               <ul>
               <li><a href="#aboutme">About Me</a></li>
-              <li><a href="">Skills</a></li>
-              <li><a href="">Projects</a></li>
-              <li><a href="">Say hi!</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#sayhi">Say hi!</a></li>
               <li><button onClick={handleClick}>Resume</button></li>
               </ul>
             </nav>
