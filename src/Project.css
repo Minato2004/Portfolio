@@ -1,22 +1,41 @@
 .project{
-    border: 2px solid black;
-    height: 40vh;
-    width: 80vw;
+    /* border: 2px solid black; */
+    width: 100%;
+    
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
 }
-.project img{
-    height: 30vh;
-    width: 50vh;
-    border-radius: 10px;
+.project>.info{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.project .image{
+.project>.info>p{
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.project>.info>div{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.project .project-icon{
+   width: 2em;
+   height: 2em;
+    object-fit: cover;
+}
+.project>.image{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.project .info{
-    border: 2px solid black;
+.project>.image>img{
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
 }
