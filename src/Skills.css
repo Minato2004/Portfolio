@@ -25,3 +25,8 @@
     transform: scale(1.1);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
+.skillsIcon{
+    width: 48px;
+    height: 48px;
+    margin: 0.5rem;
+}

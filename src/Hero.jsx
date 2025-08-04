@@ -26,7 +26,7 @@ export default function Hero() {
                 <h1>Aspiring software engineer & competetitive programmer</h1>
               </div>
               <div><img src={Logo} alt="" /></div>
-              <div><div>Hi , I am <strong>Pratyansh Pathak</strong> a 2nd year Computer Science B.Tech student who wants to build things that improve our society</div></div>
+              <div><div>Hi , I am <strong>Pratyansh Pathak</strong> a 4th year Computer Science B.Tech student who wants to build software that can reach millions of users.</div></div>
               
             </div>
           </section>

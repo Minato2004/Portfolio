@@ -26,14 +26,14 @@ export default function Skills() {
                     <div className="p">My preferred technologies for front-end web development and component design.</div>
                 </div>
                 <div className="card">
-                    <h1>Machine Learning</h1>
+                    <h1>AI</h1>
                     <div className="images">
-                        <img src="https://img.icons8.com/color/48/000000/numpy.png" alt="ML"/>
-                        <img src="https://img.icons8.com/color/48/000000/pandas.png" alt="Keras"/>
+                        <img src="https://img.icons8.com/color/48/000000/numpy.png" alt="Numpy"/>
+                        <img src="/pytorch_logo.png" alt="PyTorch" class="skillsIcon"/>
                         <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow"/>
                     </div>
                     <div className="p">
-                        Python libraries I use for machine learning and data science projects.
+                        Libraries I use for AI and machine learning projects, including deep learning frameworks.
                     </div>
                 </div>
                 <div className="card">
