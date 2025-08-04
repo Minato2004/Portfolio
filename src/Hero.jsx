@@ -5,8 +5,7 @@ import Logo from './assets/logo.webp';
 
 export default function Hero() {
     const handleClick = () => {
-        //https://docs.google.com/document/d/1gLH9XR5kFoWJubwDs_v80idU_ZTNIBr6ftHpBUo_qhM/edit?usp=sharing
-        window.open('https://docs.google.com/document/d/1gLH9XR5kFoWJubwDs_v80idU_ZTNIBr6ftHpBUo_qhM/edit?usp=sharing');
+        window.open('https://drive.google.com/file/d/1FOomWEnDgUlS30EvlRmcjMgEQku62buI/view?usp=sharing');
     }
     return (
         <>
